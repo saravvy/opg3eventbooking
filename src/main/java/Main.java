@@ -10,9 +10,13 @@ public class Main {
         sara.addEvent(hej);
         sara.addEvent(hey);
 
-        sara.bookTicket(hey,2);
         sara.bookTicket(hej,67);
+        sara.bookTicket(hey,3);
 
+
+            sara.bookTicket(hej,20);
+
+            sara.bookTicket(hej,4);
         sara.printSummary();
 
         sara.getMostPopular();

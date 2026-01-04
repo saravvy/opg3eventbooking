@@ -20,13 +20,14 @@ this.type = type;
 
 
     public void addBooking(int antalTicket) {    //det er her, som ticketen bliver booket
-
-        if (bookedTickets.size() > maxCapacity || antalTicket > maxCapacity) {
+        int leftCapacity;
+        if (bookedTickets.size() > maxCapacity || antalTicket > maxCapacity ) {
             System.out.println("Fejl solgt ud");
+            bookedTickets.add(null);
         } else {
             for (int i = 1; i <= antalTicket; i++) {
                 bookedTickets.add(antalTicket);
-
+                leftCapacity = maxCapacity-antalTicket;
             }
         }
     }
