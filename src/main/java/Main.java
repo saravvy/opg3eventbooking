@@ -14,5 +14,7 @@ public class Main {
         sara.bookTicket(hej,67);
 
         sara.printSummary();
+
+        sara.getMostPopular();
         }
 }

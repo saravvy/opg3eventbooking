@@ -35,9 +35,10 @@ public class EventManager {
               if(e.getBookedTickets().size() > mostPopular.getBookedTickets().size()){
                   mostPopular = e;
           }
-              System.out.println("Most popular event: " + e.getName() + e.getBookedTickets().size());
-          }
 
+          }
+        System.out.println("Most popular event: " + mostPopular.getName() + mostPopular.getBookedTickets().size());
     }
+
 }
 
