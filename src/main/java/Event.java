@@ -28,8 +28,11 @@ this.type = type;
             for (int i = 1; i <= antalTicket; i++) {
                 bookedTickets.add(antalTicket);
                 leftCapacity = maxCapacity-antalTicket;
+
             }
+
         }
+        System.out.println("succes");
     }
 
 
